@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.App-header{
+  background-color: whitesmoke;
+  padding: 15px;
+}
+
+.App-header h2{
+  text-align: center;
+}
+
+.App-header h5{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.container label{
+  font-size: 17px;
+}
+
+.container input[type="date"]{
+    margin-left: 5px;
+    padding: 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn{
+  margin-left: 10px;
+  background-color: green;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.container a{
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.main-container{
+  margin-left: 2%;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.main-container h2{
+  text-align: center;
+}
+
+.apod{
+  width: 600px;
+  margin-top: 10px;
+  margin-left: 30%;
+  border: 1px solid black;
+  height: 300px;
+  margin-bottom: 10px;
+  background-color: lightgray;
+}
+
+.main-container h3{
+  text-align: center;
+}
+
+.main-container p{
+  text-align: center;
+}
+.apod {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  background: #111;
+  border-radius: 10px;
+  overflow: hidden;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apod img,
+.apod iframe {
+  max-width: 60%;      
+  max-height: 550px;    
+  border-radius: 10px;
+  object-fit: contain;  
+}
